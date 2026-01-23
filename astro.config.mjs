@@ -5,7 +5,7 @@ import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
-const isDevelopment = import.meta.env.DEV;
+const isDevelopment = import.meta.env.MODE === 'development';
 const site = isDevelopment
   ? 'http://localhost:4321/'
   : 'https://orion538.github.io/astro-tech-blog/';
