@@ -7,7 +7,7 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 const isDevelopment = import.meta.env.DEV;
 const site = isDevelopment
-  ? 'http://localhost:4321'
+  ? 'http://localhost:4321/'
   : 'https://orion538.github.io/astro-tech-blog/';
 const base = isDevelopment ? '/' : '/astro-tech-blog';
 
