@@ -7,5 +7,6 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://orion538.github.io/astro-tech-blog/',
+	base: '/astro-tech-blog',
 	integrations: [mdx(), sitemap()],
 });
