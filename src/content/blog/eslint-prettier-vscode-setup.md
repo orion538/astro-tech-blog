@@ -10,6 +10,7 @@ Clean, consistently formatted code is essential for maintainability and collabor
 ## Prerequisites
 
 Before starting, ensure you have:
+
 - Node.js and npm installed
 - Visual Studio Code
 - An Astro project (or any JavaScript/TypeScript project)
@@ -101,11 +102,7 @@ Create or update `.vscode/settings.json`:
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "eslint.validate": [
-    "javascript",
-    "typescript",
-    "astro"
-  ],
+  "eslint.validate": ["javascript", "typescript", "astro"],
   "prettier.requireConfig": true
 }
 ```
